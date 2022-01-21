@@ -3,8 +3,8 @@
 using namespace metal;
 
 typedef struct {
-    float2 center;
     float size;
+    float2 center;
 } ZoomBlurUniform;
 
 
